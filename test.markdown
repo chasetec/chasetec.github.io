@@ -1,5 +1,5 @@
 ---
-title: My MarkDown test page
+title: My Markdown test page
 ---
 
 # This is a H1
@@ -8,4 +8,4 @@ title: My MarkDown test page
 
 Things to do:
 * Get my blog going
-* Get Jeykll working
+* Get Jekyll working
