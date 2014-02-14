@@ -114,17 +114,20 @@ To create and commit a repo on the client side you would perform the following s
 
 If you'd like to use SSH key based authentication instead of passwords you can with a couple of steps.
 
-1. Generate a key-pair with `ssh-keygen -t rsa`. This command may vary depending on your environment. I'm running under Cygwin on a Windows 7 machine. I'd recommend you set a passphrase when asked otherwise anyone that obtains your private key will have access to your repos.
-2. In the user's home directory on the NAS create a `.ssh` folder.
-3. Copy the public key (`~/.ssh/id_rsa.pub`) generated in step one to the Git user's `.ssh` folder created in step two and rename the file on the NAS to `authorized_keys`. If this file already exists you should append your public key file to the existing file - `cat id_rsa.pub >> authorized_keys`.
-4. Set the owner and permission information on the files. ssh into the server as the root user and run: (change `chase` on both lines to match your user name)
+Generate a key-pair with `ssh-keygen -t rsa`. This command may vary depending on your environment. I'm running under Cygwin on a Windows 7 machine. I'd recommend you set a passphrase when asked otherwise anyone that obtains your private key will have access to your repos.
+
+In the user's home directory on the NAS create a `.ssh` folder.
+
+Copy the public key (`~/.ssh/id_rsa.pub`) generated in step one to the Git user's `.ssh` folder created in step two and rename the file on the NAS to `authorized_keys`. If this file already exists you should append your public key file to the existing file - `cat id_rsa.pub >> authorized_keys`.
+
+Set the owner and permission information on the files. ssh into the server as the root user and run: (change `chase` on both lines to match your user name)
     
 <pre><code>cd /volume1/homes/chase/
 chown -R chase:users .ssh
 chmod 700 .ssh
 chmod 644 .ssh/authorized_keys</code></pre>
 
-5. The Synology SSH daemon doesn't use key based auth by default. To enable it use `vi` to edit the `/etc/ssh/sshd_config` file. Find the following lines:
+The Synology SSH daemon doesn't use key based auth by default. To enable it use `vi` to edit the `/etc/ssh/sshd_config` file. Find the following lines:
 
 <pre><code>#PubkeyAuthentication yes
 #AuthorizedKeysFile     .ssh/authorized_keys</code></pre>
