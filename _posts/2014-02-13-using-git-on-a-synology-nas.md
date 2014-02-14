@@ -118,23 +118,21 @@ If you'd like to use SSH key based authentication instead of passwords you can w
 2. In the user's home directory on the NAS create a `.ssh` folder.
 3. Copy the public key (`~/.ssh/id_rsa.pub`) generated in step one to the Git user's `.ssh` folder created in step two and rename the file on the NAS to `authorized_keys`. If this file already exists you should append your public key file to the existing file - `cat id_rsa.pub >> authorized_keys`.
 4. Set the owner and permission information on the files. ssh into the server as the root user and run: (change `chase` on both lines to match your user name)
-
-    cd /volume1/homes/chase/
-    chown -R chase:users .ssh
-    chmod 700 .ssh
-    chmod 644 .ssh/authorized_keys
+    
+<pre><code>cd /volume1/homes/chase/
+chown -R chase:users .ssh
+chmod 700 .ssh
+chmod 644 .ssh/authorized_keys</code></pre>
 
 5. The Synology SSH daemon doesn't use key based auth by default. To enable it use `vi` to edit the `/etc/ssh/sshd_config` file. Find the following lines:
 
 <pre><code>#PubkeyAuthentication yes
-#AuthorizedKeysFile     .ssh/authorized_keys
-</code></pre>
+#AuthorizedKeysFile     .ssh/authorized_keys</code></pre>
 
 Modify them to be:
 
 <pre><code>PubkeyAuthentication yes
-AuthorizedKeysFile     .ssh/authorized_keys
-</code></pre>
+AuthorizedKeysFile     .ssh/authorized_keys</code></pre>
 
 Save the file.
 
