@@ -117,7 +117,7 @@ If you'd like to use SSH key based authentication instead of passwords you can w
 1. Generate a key-pair with `ssh-keygen -t rsa`. This command may vary depending on your environment. I'm running under Cygwin on a Windows 7 machine. I'd recommend you set a passphrase when asked otherwise anyone that obtains your private key will have access to your repos.
 2. In the user's home directory on the NAS create a `.ssh` folder.
 3. Copy the public key (`~/.ssh/id_rsa.pub`) generated in step one to the Git user's `.ssh` folder created in step two and rename the file on the NAS to `authorized_keys`. If this file already exists you should append your public key file to the existing file - `cat id_rsa.pub >> authorized_keys`.
-4. Set the own and permission information on the files. ssh into the server as the root user and run: (change `chase` on both lines to match your user name)
+4. Set the owner and permission information on the files. ssh into the server as the root user and run: (change `chase` on both lines to match your user name)
 
     cd /volume1/homes/chase/
     chown -R chase:users .ssh
