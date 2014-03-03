@@ -1,0 +1,395 @@
+
+pack.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Brown Block
+  rotate: false
+  xy: 2, 694
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Character Boy
+  rotate: false
+  xy: 2, 521
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Character Cat Girl
+  rotate: false
+  xy: 105, 694
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Character Horn Girl
+  rotate: false
+  xy: 2, 348
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Character Pink Girl
+  rotate: false
+  xy: 105, 521
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Character Princess Girl
+  rotate: false
+  xy: 208, 694
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Chest Closed
+  rotate: false
+  xy: 2, 175
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Chest Lid
+  rotate: false
+  xy: 105, 348
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Chest Open
+  rotate: false
+  xy: 208, 521
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Dirt Block
+  rotate: false
+  xy: 311, 694
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Door Tall Closed
+  rotate: false
+  xy: 2, 2
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Door Tall Open
+  rotate: false
+  xy: 105, 175
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Enemy Bug
+  rotate: false
+  xy: 208, 348
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Gem Blue
+  rotate: false
+  xy: 311, 521
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Gem Green
+  rotate: false
+  xy: 414, 694
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Gem Orange
+  rotate: false
+  xy: 105, 2
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Grass Block
+  rotate: false
+  xy: 208, 175
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Heart
+  rotate: false
+  xy: 311, 348
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Key
+  rotate: false
+  xy: 414, 521
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Plain Block
+  rotate: false
+  xy: 517, 694
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Ramp East
+  rotate: false
+  xy: 208, 2
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Ramp North
+  rotate: false
+  xy: 311, 175
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Ramp South
+  rotate: false
+  xy: 414, 348
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Ramp West
+  rotate: false
+  xy: 517, 521
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Rock
+  rotate: false
+  xy: 620, 694
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Roof East
+  rotate: false
+  xy: 311, 2
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Roof North
+  rotate: false
+  xy: 620, 521
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Roof North East
+  rotate: false
+  xy: 414, 175
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Roof North West
+  rotate: false
+  xy: 517, 348
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Roof South
+  rotate: false
+  xy: 517, 175
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Roof South East
+  rotate: false
+  xy: 723, 694
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Roof South West
+  rotate: false
+  xy: 414, 2
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Roof West
+  rotate: false
+  xy: 620, 348
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Selector
+  rotate: false
+  xy: 723, 521
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Shadow East
+  rotate: false
+  xy: 826, 694
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Shadow North
+  rotate: false
+  xy: 723, 348
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Shadow North East
+  rotate: false
+  xy: 517, 2
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Shadow North West
+  rotate: false
+  xy: 620, 175
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Shadow Side West
+  rotate: false
+  xy: 826, 521
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Shadow South
+  rotate: false
+  xy: 826, 348
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Shadow South East
+  rotate: false
+  xy: 620, 2
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Shadow South West
+  rotate: false
+  xy: 723, 175
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Shadow West
+  rotate: false
+  xy: 723, 2
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+SpeechBubble
+  rotate: false
+  xy: 826, 175
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Star
+  rotate: false
+  xy: 826, 2
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+
+pack2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Stone Block
+  rotate: false
+  xy: 2, 2
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Stone Block Tall
+  rotate: false
+  xy: 2, 175
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Tree Short
+  rotate: false
+  xy: 105, 175
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Tree Tall
+  rotate: false
+  xy: 105, 2
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Tree Ugly
+  rotate: false
+  xy: 208, 175
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Wall Block
+  rotate: false
+  xy: 311, 175
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Wall Block Tall
+  rotate: false
+  xy: 208, 2
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Water Block
+  rotate: false
+  xy: 311, 2
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Window Tall
+  rotate: false
+  xy: 414, 175
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
+Wood Block
+  rotate: false
+  xy: 414, 2
+  size: 101, 171
+  orig: 101, 171
+  offset: 0, 0
+  index: -1
