@@ -26,6 +26,7 @@ Because all of the command links will originate in the `/usr/bin` directory ther
 Now you should be able to run `java -version` and `javac -version` and the output should indicate that you are running the 1.8.0_05 version of those commands. Additionally you can run other Java related commands such as `jjs` (the Nashorn engine interface) or `jmc` (Java Mission Control) without having to fully qualify their paths.
 
 To add the Java plugin to FireFox (for applet support) run the following command:
+
     ln -s /usr/java/jdk1.8.0_05/jre/lib/amd64/libnpjp2.so /usr/lib64/mozilla/plugins/
 
 You'll also want to add the Java Preferences menu item to your Gnome desktop by running the following commands:
