@@ -166,7 +166,9 @@ If your LCD display is garbled you may need to try different values for the ST79
 
 If you flash the BLTouch configuration before wiring in your BLTouch you'll hear persistent fast beeping. This is normal since the configuration repurposes the speaker pin for the BLTouch and the firmware is attempting to communicate with the BLTouch and the signals are still going to the speaker.
 
-## Additional Post-Setup Configuration
+## Additional Post-Install Configuration
+
+After getting the firmware and BLTouch installed there are still a couple step you'll need to perform.
 
 ### PID Tuning
 
