@@ -114,7 +114,7 @@ There is already an excellent [video for flashing bootloader on the i3 and hardw
 
 Once the bootloader is flashed you can disconnect the Uno, it won't be used anymore. You will be directly connecting the Melzi to a USB port on your computer.
 
-In order to flash the firmware to the Melzi mainboard you must select the correct COM port in the Arduino IDE. For me the COM port wasn't showing up. The reason was that I had previously only printed using the SD card and by connecting the printer to a dedicated OctoPrint server and the printer was listed as an unknown FT232R usb uart device in the Windows Device Manager. To get the printer to show as a COM port you may have to install the drivers from https://www.ftdichip.com/Drivers/VCP.htm if you have not previously done so.
+In order to flash the firmware to the Melzi mainboard you must select the correct COM port in the Arduino IDE. For me the COM port wasn't showing up. The reason was that I had previously only printed using the SD card and by connecting the printer to a dedicated OctoPrint server and the printer was listed as an unknown FT232R usb uart device in the Windows Device Manager. To get the printer to show as a COM port you may have to install the drivers from [https://www.ftdichip.com/Drivers/VCP.htm](https://www.ftdichip.com/Drivers/VCP.htm) if you have not previously done so.
 
 ### Marlin Firmware
 
