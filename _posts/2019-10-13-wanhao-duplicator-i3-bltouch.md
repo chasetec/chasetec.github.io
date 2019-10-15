@@ -127,7 +127,7 @@ There are several good videos that introduce you to the Marlin firmware. I'd sug
 
 In the Arduino IDE, open File, select Preferences, in the Additional Boards Manager URLs field add https://raw.githubusercontent.com/Lauszus/Sanguino/master/package_lauszus_sanguino_index.json and press the OK button.
 
-Next open the Tools menu, select Board:, and then select Boards Manager. In the Boards Manager search for Sanguino. Select the latest version (1.0.3 at this time) and press Install. After the install completes you can close the Board Manager. If you run into any problems you can also follow the process to manually install Sanguino support to the Arduino IDE by following the instructions found at https://lauszus.com/Sanguino/.
+Next open the Tools menu, select Board:, and then select Boards Manager. In the Boards Manager search for Sanguino. Select the latest version (1.0.3 at this time) and press Install. After the install completes you can close the Board Manager. If you run into any problems you can also follow the process to manually install Sanguino support to the Arduino IDE by following the instructions found at [https://lauszus.com/Sanguino/](https://lauszus.com/Sanguino/).
 
 Next open the Tools menu, select Board:, and then select Sanguino. Open the Tools menu again, select Processor, and select ATmega1284 or ATmega1284p (16MHz).
 
