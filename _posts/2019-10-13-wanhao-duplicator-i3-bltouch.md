@@ -137,14 +137,14 @@ You also need to install the [U8glib](https://github.com/olikraus/u8glib) librar
 
 I started with the Marlin default Configuration.h and made i3 specific changes. To figure out what others are changing for their i3 printers I evaluated the following configurations:
 
-* https://reprap.org/forum/read.php?415,809741
-* https://www.reddit.com/r/3Dprinting/comments/8o3wg8/installing_marlin_on_maker_select_v2/
-* https://gist.github.com/jdembowski/f3d2f9da41519aa73ecc591353e09bd5#file-configuration-h
-* https://github.com/swindonmakers/Wanhao-i3-Firmware/blob/master/Marlin/Marlin/Configuration.h
-* https://github.com/andyrblank/Marlin-Maker-Select-V2/commit/b02401164dd9a07cf3acdf336aa34a1e5b47c870#diff-8270513bcf2a548cd418cdfe123f27d3
-* https://github.com/fdev31/Marlin/commit/c64f5b4ea4ef54fff9599f73dc2c0e75a45aa8ef#diff-8270513bcf2a548cd418cdfe123f27d3
+* [https://reprap.org/forum/read.php?415,809741](https://reprap.org/forum/read.php?415,809741)
+* [https://www.reddit.com/r/3Dprinting/comments/8o3wg8/installing_marlin_on_maker_select_v2/](https://www.reddit.com/r/3Dprinting/comments/8o3wg8/installing_marlin_on_maker_select_v2/)
+* [https://gist.github.com/jdembowski/f3d2f9da41519aa73ecc591353e09bd5#file-configuration-h](https://gist.github.com/jdembowski/f3d2f9da41519aa73ecc591353e09bd5#file-configuration-h)
+* [https://github.com/swindonmakers/Wanhao-i3-Firmware/blob/master/Marlin/Marlin/Configuration.h](https://github.com/swindonmakers/Wanhao-i3-Firmware/blob/master/Marlin/Marlin/Configuration.h)
+* [https://github.com/andyrblank/Marlin-Maker-Select-V2/commit/b02401164dd9a07cf3acdf336aa34a1e5b47c870#diff-8270513bcf2a548cd418cdfe123f27d3](https://github.com/andyrblank/Marlin-Maker-Select-V2/commit/b02401164dd9a07cf3acdf336aa34a1e5b47c870#diff-8270513bcf2a548cd418cdfe123f27d3)
+* [https://github.com/fdev31/Marlin/commit/c64f5b4ea4ef54fff9599f73dc2c0e75a45aa8ef#diff-8270513bcf2a548cd418cdfe123f27d3](https://github.com/fdev31/Marlin/commit/c64f5b4ea4ef54fff9599f73dc2c0e75a45aa8ef#diff-8270513bcf2a548cd418cdfe123f27d3)
 
-The result of combing through all these configuration files and various testing are the configuration files I've created which can be found at https://github.com/chasetec/Marlin/tree/1.1.x/Marlin/example_configurations/Wanhao. I'm sharing the links to the other configuration files in case one of the differences in them help you with any problems you might have.
+The result of combing through all these configuration files and various testing are the configuration files I've created which can be found at [https://github.com/chasetec/Marlin/tree/1.1.x/Marlin/example_configurations/Wanhao](https://github.com/chasetec/Marlin/tree/1.1.x/Marlin/example_configurations/Wanhao). I'm sharing the links to the other configuration files in case one of the differences in them help you with any problems you might have.
 
 For example my LCD was garbled until adjust the ST7920_DELAY values to those found in the chasetec repo. But from what I've seen it looks like different values have worked for others. The 3 sample configurations I'm providing are:
 
@@ -156,7 +156,7 @@ For example my LCD was garbled until adjust the ST7920_DELAY values to those fou
 
 Once your printer has a bootloader the process to flash Marlin it simple.
 
-1. Download the Configuration.h and Configuration_adv.h files you want to use from https://github.com/chasetec/Marlin/tree/1.1.x/Marlin/example_configurations/Wanhaoand save them in the Marlin-1.1.x/Marlin directory you extracted from the Marlin ZIP download. You want to replace the existing copy of those files.
+1. Download the Configuration.h and Configuration_adv.h files you want to use from [https://github.com/chasetec/Marlin/tree/1.1.x/Marlin/example_configurations/Wanhao](https://github.com/chasetec/Marlin/tree/1.1.x/Marlin/example_configurations/Wanhao) and save them in the Marlin-1.1.x/Marlin directory you extracted from the Marlin ZIP download. You want to replace the existing copy of those files.
 2. Double-click on the Marlin.ino file to open Marlin in the Arduino IDE.
 3. From the tools menu, select the correct board [Sanguino], processor [ATmega1284 or ATmega1284p (16MHz)], and COM port.
 4. Adjust the `#define X_PROBE_OFFSET_FROM_EXTRUDER` and `#define Y_PROBE_OFFSET_FROM_EXTRUDER` values in Configuration.h to match your mount.
