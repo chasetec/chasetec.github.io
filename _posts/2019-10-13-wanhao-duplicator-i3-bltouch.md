@@ -44,7 +44,7 @@ Adding any of the bed leveling methods to the i3 will require you to replace the
 
 To use sensor based leveling you'll need a sensor. One of the most popular choices is the [BLTouch with 2M extension cable](https://www.amazon.com/dp/B07FR2LLZP/). A [10 pin male cable header](https://www.amazon.com/dp/B00B3PI02G/) will be needed to wire in the sensor to the motherboard. I'd also recommend a new [10 pin cable](https://www.amazon.com/dp/B07G1Y5GPG/) because I found it using a new 10 pin cable easier than to try to reuse the one already in the system.
 
-You'll need to print out a BLTouch mount from [Thingverse](thingiverse.com) and will need some M3 bolts and nuts for the mount you choose. **PRINT YOUR MOUNT BEFORE YOU ATTEMPT TO WIRE IN YOUR BLTOUCH.** Make sure it fits with your fan configuration. You'll need to adjust the `#define X_PROBE_OFFSET_FROM_EXTRUDER` and `#define Y_PROBE_OFFSET_FROM_EXTRUDER` values in the firmware's Configuration.h file to match your mount.
+You'll need to print out a BLTouch mount from [Thingverse](https://thingiverse.com) and will need some M3 bolts and nuts for the mount you choose. **PRINT YOUR MOUNT BEFORE YOU ATTEMPT TO WIRE IN YOUR BLTOUCH.** Make sure it fits with your fan configuration. You'll need to adjust the `#define X_PROBE_OFFSET_FROM_EXTRUDER` and `#define Y_PROBE_OFFSET_FROM_EXTRUDER` values in the firmware's Configuration.h file to match your mount.
 
 If you'd like keep the wiring organized you will also want to get some small zip ties.
 
