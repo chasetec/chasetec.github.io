@@ -74,7 +74,7 @@ The wiring is also shown in the Melzi & Compatible section of the [official BLTo
 
 **The official instructions say to remove (break off) the C7 capacitor for versions 3+ of the BLTouch. I have NOT done this and so far have had no problems with a v3.0 BLtouch manufactured on April 22 2019.**
 
-Problems potentially include inaccurate readings or the BLTouch signal not being detected which could result in your nozzle crashing into your bed while homing. When first testing your BLTouch make sure you trigger it by hand well above the bed so you can turn off the power if the printer does not recognize the signal.
+C7 problems potentially include inaccurate readings or the BLTouch signal not being detected which could result in your nozzle crashing into your bed while homing. When first testing your BLTouch make sure you trigger it by hand well above the bed so you can turn off the power if the printer does not recognize the signal.
 
 Thanks goes to [https://3dprinterwiki.info/wiki/wanhao-duplicator-i3/part-specifications/](https://3dprinterwiki.info/wiki/wanhao-duplicator-i3/part-specifications/) and [https://www.thingiverse.com/groups/i3/forums/general/topic:30927](https://www.thingiverse.com/groups/i3/forums/general/topic:30927) for providing information about A4 actually being pin 27 on the i3.
 
@@ -82,7 +82,7 @@ Thanks goes to [https://3dprinterwiki.info/wiki/wanhao-duplicator-i3/part-specif
 
 You'll need to disconnect the existing Z-stop switch from the Melzi board and connect it to the BLTouch instead. The old switch will no longer be used.
 
-Because the BLTouch extension cable uses dupont connectors and the mainboard has jst connectors on the later revisions of the i3, I found it easiest to pull off the jst connector which should leave the pins. They might be some hot glue holding the connector on.
+Because the BLTouch extension cable uses dupont connectors and the mainboard has jst connectors on the later revisions of the i3, I found it easiest to pull off the jst connector which should leave the pins. There might be some hot glue holding the connector on.
 
 <img src="/assets/i3-zstop-connector.jpg" alt="Z-Stop connector" style="max-width: 100%;">
 
