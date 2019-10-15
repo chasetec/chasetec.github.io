@@ -76,7 +76,7 @@ The wiring is also shown in the Melzi & Compatible section of the [official BLTo
 
 Problems potentially include inaccurate readings or the BLTouch signal not being detected which could result in your nozzle crashing into your bed while homing. When first testing your BLTouch make sure you trigger it by hand well above the bed so you can turn off the power if the printer does not recognize the signal.
 
-Thanks goes to https://3dprinterwiki.info/wiki/wanhao-duplicator-i3/part-specifications/ and https://www.thingiverse.com/groups/i3/forums/general/topic:30927 for providing information about A4 actually being pin 27 on the i3.
+Thanks goes to [https://3dprinterwiki.info/wiki/wanhao-duplicator-i3/part-specifications/](https://3dprinterwiki.info/wiki/wanhao-duplicator-i3/part-specifications/) and [https://www.thingiverse.com/groups/i3/forums/general/topic:30927](https://www.thingiverse.com/groups/i3/forums/general/topic:30927) for providing information about A4 actually being pin 27 on the i3.
 
 ####  BLTouch Z-Stop Wiring
 
@@ -210,7 +210,7 @@ M211 S1; re-enable software endstops
 
 You can automatically run the bed leveling every time you print. By adding `G29` to the before printing GCODE in your slicer program. Just make sure that any home commands (`G28`) happen before the `G29`. If you run `G28` after `G29` it will turn off bed leveling.
 
-The before printing GCODE I'm running is designed for use in CURA and is based on code found at https://www.reddit.com/r/ender3/comments/aiebc7/better_cura_start_gcode_for_bltouch/
+The before printing GCODE I'm running is designed for use in CURA and is based on code found on [Reddit](https://www.reddit.com/r/ender3/comments/aiebc7/better_cura_start_gcode_for_bltouch/).
 
 ````
 M140 S{material_bed_temperature_layer_0} ; Set Heat Bed temperature
