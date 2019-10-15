@@ -58,17 +58,17 @@ There are 3 BLTouch wires for signal, ground, and 5v positive power that you mus
 
 The pin labeled A4 connects to the speaker on the LCD board, we must disconnect it from the speaker and connect it to the BLTouch signal wire. The remaining 9 pins should stay connected to the LCD but the GND and 5V pins need to also be connected to the BLTouch.
 
-![10 Pin EXT header](../assets/i3-ext-header.jpg)
+<img src="/assets/i3-ext-header.jpg" alt="10 Pin EXT header" style="max-width: 100%;">
 
 Instead of soldering anything we can build a cable. Add a shrouded 10 male connector to a 10 pin cable with female ends. You can try to use the existing 10 pin cable but I wanted to keep it as-is in case I wanted to go back to stock. You must cut out a portion of the 3rd wire which is the gray wire shown in the picture. The side of the cable with the notch taken out will be connected to the LCD so that the A4 pin is no longer connected to the speaker.
 
 The other female end of the cable connects to the EXT header on the Melzi mainboard. Make sure to connect the cable so that the wire with the notch connects to the A4 pin.
 
-![10 Pin A4 cable](../assets/A4-cable.jpg)
+<img src="/assets/A4-cable.jpg" alt="10 Pin A4 cable" style="max-width: 100%;">
 
 Connect the power and signal BLTouch wires to the male 10 pin header as shown below.
 
-![BLTouch wiring part 1](../assets/i3-ext-bltouch-wiring.jpg)
+<img src="/assets/i3-ext-bltouch-wiring.jpg" alt="BLTouch wiring part 1" style="max-width: 100%;">
 
 The wiring is also shown in the Melzi & Compatible section of the [official BLTouch wiring instructions](https://www.antclabs.com/wiring3). The official instructions correctly label the A4 pin but mislabel it D28. For the Melzi board in the i3 the A4 pin is connector 27 instead of 28. This is important for the `#define SERVO0_PIN 27` line in the Configuration.h file.
 
@@ -84,12 +84,11 @@ You'll need to disconnect the existing Z-stop switch from the Melzi board and co
 
 Because the BLTouch extension cable uses dupont connectors and the mainboard has jst connectors on the later revisions of the i3, I found it easiest to pull off the jst connector which should leave the pins. They might be some hot glue holding the connector on.
 
-![Z-Stop connector](../assets/i3-zstop-connector.jpg)
+<img src="/assets/i3-zstop-connector.jpg" alt="Z-Stop connector" style="max-width: 100%;">
 
 When connecting the BLTouch Z-Stop wire to the connector on the Melzi mainboard you must connect the cable with the orientation shown. If you connect this cable backwards the BLTouch will not function.
 
-![Z-Stop wiring](../assets/i3-zstop-wiring.jpg)
-
+<img src="/assets/i3-zstop-wiring.jpg" alt="Z-Stop wiring" style="max-width: 100%;">
 
 ## Printer Firmware Basics
 
