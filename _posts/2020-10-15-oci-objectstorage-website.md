@@ -165,12 +165,12 @@ You should be able to visit the /index.html page on your vanity domain and the d
 
 Because you are now running JavaScript on Cloudflare's servers for every HTTP request to your site it does introduce some overhead.
 
-Direct calls to the OCI object storage URLs such as https://objectstorage.us-ashburn-1.oraclecloud.com/n/{NAMESPACE}/b/site/o/index.html responds in 50-75 ms.
+Direct calls to the OCI object storage URLs such as https://objectstorage.us-ashburn-1.oraclecloud.com/n/{NAMESPACE}/b/site/o/index.html respond in 50-75 ms.
 
-While URLs like https://www.{domain}.com/index.html responds in 150-500 ms. The 500 ms time is likely when cold starting the worker, normally the time is closer to 150 ms. Not bad but still slower than the original URL.
+While URLs like https://www.{domain}.com/index.html respond in 150-500 ms. The 500 ms time is likely when cold starting the worker, normally the time is closer to 150 ms. Not bad but still slower than the original URL.
 
 Also be aware that the free tier of Cloudflare workers has [limits](https://developers.cloudflare.com/workers/platform/limits) of 100,000 requests/day and 1000 requests/min.
 
-If you attempt to use a setup like this long term you might avoid using workers as much by changing the worker route to end with `*.html` and only server your HTML files using pretty URLs and server images, stylesheets, and JavaScript files from the OCI object storage URLs.
+If you attempt to use a setup like this long term you might avoid using some workers by changing the worker route to end with `*.html` and only serve your HTML files using pretty URLs and serve any images, stylesheets, and JavaScript files from the OCI object storage URLs.
 
-Next post I plan to look at using one of the always free compute resources in OCI to setup a real web server.
+In the next post I plan to look at using one of the always free compute resources in OCI to setup a real web server.
