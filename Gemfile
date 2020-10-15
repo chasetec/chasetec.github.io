@@ -1,3 +1,4 @@
 source 'https://rubygems.org'
-gem 'pygments.rb', '0.5.0'
-gem 'github-pages'
+gem 'github-pages', group: :jekyll_plugins
+gem 'minima'
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
