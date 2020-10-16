@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hosting a static website with Oracle Cloud Infrastructure Object Storage"
+title:  "Hosting a static website with OCI Object Storage"
 categories: OCI
 ---
 
