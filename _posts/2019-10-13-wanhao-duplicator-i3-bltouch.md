@@ -44,6 +44,8 @@ Adding any of the bed leveling methods to the i3 will require you to replace the
 
 To use sensor based leveling you'll need a sensor. One of the most popular choices is the [BLTouch with 2M extension cable](https://www.amazon.com/dp/B07FR2LLZP/). A [10 pin male cable header](https://www.amazon.com/dp/B00B3PI02G/) will be needed to wire in the sensor to the motherboard. I'd also recommend a new [10 pin cable](https://www.amazon.com/dp/B07G1Y5GPG/) because I found it using a new 10 pin cable easier than to try to reuse the one already in the system.
 
+**UPDATE:** I found someone selling pin 27 adapter board for the Duplicator i3 and unlike all the other pin 27 boards that only work for the Creator Ender 3, this one looks like it might be specific to i3. I haven't tried it but its cheap and easier than building your own cable so I'm putting a link here if someone wants to try it - https://www.th3dstudio.com/product/ezout-pin-27-kit-for-wanhao-i3-melzi-board-filament-sensor-or-bl-touch/
+
 You'll need to print out a BLTouch mount from [Thingverse](https://thingiverse.com) and will need some M3 bolts and nuts for the mount you choose. **PRINT YOUR MOUNT BEFORE YOU ATTEMPT TO WIRE IN YOUR BLTOUCH.** Make sure it fits with your fan configuration. You'll need to adjust the `#define X_PROBE_OFFSET_FROM_EXTRUDER` and `#define Y_PROBE_OFFSET_FROM_EXTRUDER` values in the firmware's Configuration.h file to match your mount.
 
 If you'd like keep the wiring organized you will also want to get some small zip ties.
